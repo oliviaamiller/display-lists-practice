@@ -6,9 +6,10 @@ export function renderSweaters(sweaterData) {
 
     sweaterDiv.classList.add('sweaters');
 
-    fiberEl.textContent = sweaterData.fiber;
-    styleEl.textContent = sweaterData.style;
-    timesWornEl.textContent = sweaterData.timesWorn;
+    sweaterDiv.textContent = 'sweater info:';
+    fiberEl.textContent = `fiber: ${sweaterData.fiber}`;
+    styleEl.textContent = `style: ${sweaterData.style}`;
+    timesWornEl.textContent = `times worn: ${sweaterData.timesWorn}`;
 
     sweaterDiv.append(fiberEl, styleEl, timesWornEl);
 

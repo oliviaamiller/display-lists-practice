@@ -56,9 +56,64 @@ section {
     text-transform: uppercase;
     font-family: sans-serif;
     font-weight: bold;
-    
+    font-size: 20px;
+}
+
+#sweaters-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.sweaters {
+    color: goldenrod;
+    border: lightgoldenrodyellow 7px;
+    border-style: double;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#cats-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.cats {
+    color: gray;
+    background-color: linen;
+    margin: 30px;
+    padding: 10px
+}
+
+.favorite-toy {
+    background-color: white;
+    margin: 2px;
+    padding: 1px;
+}
+
+.cats-name {
+    text-transform: uppercase;
+    color: black;
 }
 
 
+#recipes-list {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
 
+}
 
+.recipes {
+    border: 1px black solid;
+    padding: 20px;
+    margin: 30px;
+
+}
+
+.ingredients {
+    background-color: aliceblue;
+}
